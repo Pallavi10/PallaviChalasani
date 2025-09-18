@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pallavi Chalasani – Portfolio</title>
+  <meta name="description" content="Senior Technical Product Manager & Engineer portfolio for Pallavi Chalasani." />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+  <!-- Navigation -->
+  <nav class="fixed top-0 w-full bg-white shadow-md z-10">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-bold">Pallavi Chalasani</h1>
+      <div class="space-x-4">
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#portfolio" class="hover:text-blue-600">Portfolio</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-100 to-purple-200" id="home">
+    <div class="text-center px-4">
+      <img src="assets/profile.jpg" alt="Profile photo" class="mx-auto w-28 h-28 rounded-full shadow mb-4 object-cover"/>
+      <h2 class="text-4xl font-bold mb-2">Hi, I'm Pallavi 👋</h2>
+      <p class="text-lg mb-6">Senior Technical Product Manager & Engineer</p>
+      <a href="#portfolio" class="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700">See My Work</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-4xl mx-auto py-20 px-6">
+    <h2 class="text-3xl font-bold mb-6 text-center">About Me</h2>
+    <p class="text-lg text-gray-700 leading-relaxed">
+      I’m a Senior Technical Product Manager with 10+ years of experience at Amazon, Walmart, and JPMorgan.
+      With a dual background in software engineering (MS in Computer Science) and product leadership (MBA, NYU Stern),
+      I build AI/ML-powered solutions, last-mile delivery products, and data platforms that save millions annually
+      while scaling customer and seller experiences.
+    </p>
+    <div class="text-center mt-8">
+      <a href="assets/resume-placeholder.pdf" class="px-5 py-3 bg-gray-900 text-white rounded-lg hover:bg-black">Download Resume (PDF)</a>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="bg-gray-100 py-20 px-6">
+    <h2 class="text-3xl font-bold mb-10 text-center">Portfolio</h2>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <!-- Project 1 -->
+      <article class="bg-white rounded-lg shadow p-6">
+        <h3 class="font-bold text-xl mb-2">AI-Powered Seller Assistant</h3>
+        <p class="text-gray-600">
+          Built at Amazon SG&D to answer seller questions using AI, reducing daily PM/on-call time from ~30–40 mins to ~5 mins.
+        </p>
+        <ul class="text-sm text-gray-500 list-disc ml-5 mt-3">
+          <li>Role: Sr. Tech PM</li>
+          <li>Stack: AWS, LLMs, internal services</li>
+          <li>Impact: 80% time saved</li>
+        </ul>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="bg-white rounded-lg shadow p-6">
+        <h3 class="font-bold text-xl mb-2">Walmart InHome Delivery App</h3>
+        <p class="text-gray-600">
+          Designed associate workflows for vehicle checks, ID verification, and video recording, saving multi-million annually.
+        </p>
+        <ul class="text-sm text-gray-500 list-disc ml-5 mt-3">
+          <li>Role: Lead PM</li>
+          <li>Stack: iOS, backend APIs</li>
+          <li>Impact: CSAT +10, $4–6M savings</li>
+        </ul>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="bg-white rounded-lg shadow p-6">
+        <h3 class="font-bold text-xl mb-2">Unified Data Lake Platform</h3>
+        <p class="text-gray-600">
+          At JPMorgan, launched a unified data lake serving 1M+ daily trades, improving integration and compliance.
+        </p>
+        <ul class="text-sm text-gray-500 list-disc ml-5 mt-3">
+          <li>Role: Tech PO / Eng</li>
+          <li>Stack: ETL, data warehousing</li>
+          <li>Impact: Faster access to reference data</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-4xl mx-auto py-20 px-6">
+    <h2 class="text-3xl font-bold mb-6 text-center">Contact</h2>
+    <p class="text-center mb-8 text-lg">
+      Let’s connect! Reach me via <a href="mailto:your.email@example.com" class="text-blue-600">email</a> or find me on
+      <a href="https://www.linkedin.com" class="text-blue-600">LinkedIn</a>.
+    </p>
+  </section>
+
+  <footer class="text-center py-6 bg-white shadow-inner">
+    <p class="text-gray-600">&copy; 2025 Pallavi Chalasani</p>
+  </footer>
+</body>
+</html>
